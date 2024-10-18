@@ -5,3 +5,41 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  background-color: aqua;
+  height: 60px;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.container{
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+}
+
+.col {
+  padding: 0 10px;
+}
+
+header .container{
+  height: 100%;
+}
+
+header .navbar .row{
+  background-color: beige;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
