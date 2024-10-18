@@ -14,10 +14,15 @@ header{
   height: 60px;
 }
 
+.debug{
+  border: 2px solid black;
+}
+
 header nav ul{
   display: flex;
   list-style: none;
 }
+
 
 .container{
   width: 60%;
@@ -42,4 +47,10 @@ header .navbar .row{
   height: 100%;
   align-items: center;
   justify-content: space-between;
+}
+
+nav ul li a{
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 5px 10px;
 }
