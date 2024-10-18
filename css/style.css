@@ -82,8 +82,6 @@ main{
   height: 250px;
   border: 2px solid black;
   margin: 30px;
-
-
 }
 
 .container-sec{
@@ -93,11 +91,11 @@ main{
   width: 100%;
   min-height: 650px;
 }
+
 .sidebar{
   width:550px;
   min-height: 500px;
   background-color: cornflowerblue;
-
 }
 
 .pink{
@@ -106,8 +104,49 @@ main{
   min-height: 500px;
 }
 
-.container-third{
+.lightgray{
   background-color: lightgray;
+}
+
+.black{
+background-color: black;
+
+}
+
+.container-fourth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth{
+  width: 900px;
+  min-height: 700px;
+  background-color: darkgreen;
+  margin: 60px
+}
+
+
+.container-fifth{
+  display:flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.red{
+  background-color: lightcoral;
+  min-height: 500px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.acqua{
+  background-color: lightskyblue;
+  min-height: 500px;
+  width: 150px;
+  margin-top: 20px;
 }
 
 /* ********** /MAIN *********** */
