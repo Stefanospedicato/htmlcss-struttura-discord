@@ -72,8 +72,6 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  ;
-
 }
 
 .fucsia{
@@ -109,8 +107,8 @@ main{
 }
 
 .black{
-background-color: black;
-
+  background-color: black;
+  
 }
 
 .container-fourth{
@@ -126,27 +124,32 @@ background-color: black;
   margin: 60px
 }
 
-
-.container-fifth{
-  display:flex;
-  flex-wrap: nowrap;
-  width: 100%;
+.container-five{
+  display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  min-height: 600px;
 }
 
 .red{
   background-color: lightcoral;
-  min-height: 500px;
+  min-height: 600px;
   width: 300px;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 15px auto;
 }
 
-.acqua{
-  background-color: lightskyblue;
-  min-height: 500px;
+.forest{
+  background-color:forestgreen;
+  min-height: 600px;
   width: 150px;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center ;
+  align-self: center;
+  margin: 15px auto;
 }
 
 /* ********** /MAIN *********** */
