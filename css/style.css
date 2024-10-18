@@ -25,8 +25,7 @@ body{
 
 
 .container{
-  width: 60%;
-  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
 
 /* ********** HEADER ********* */
@@ -37,6 +36,7 @@ body{
 
 .row{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .col {
@@ -63,7 +63,10 @@ nav ul li a{
 /* ********** /HEADER ********* */
 
 /* ********** MAIN ************ */
-
+main{
+  width: 100%;
+  margin: 0 auto;
+}
 .container-first{
   background-color: darkblue;
   display: flex;
@@ -88,21 +91,23 @@ nav ul li a{
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 700px;
+  min-height: 650px;
 }
 .sidebar{
-  width: 900px;
-  min-height: 60%;
+  width:550px;
+  min-height: 500px;
   background-color: cornflowerblue;
 
 }
 
 .pink{
   background-color: pink;
-  width: 900px;;
-  min-height: 40%;
+  width:350px;
+  min-height: 500px;
 }
 
-
+.container-third{
+  background-color: lightgray;
+}
 
 /* ********** /MAIN *********** */
