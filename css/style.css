@@ -1,33 +1,38 @@
 
 *{
   margin: 0;
-  paddin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-header{
-  background-color: aqua;
-  height: 60px;
-}
-
-.debug{
-  border: 2px solid black;
-}
-
-header nav ul{
-  display: flex;
-  list-style: none;
-}
+  
+  header{
+    background-color: aqua;
+    height: 60px;
+  }
+  
+  .debug{
+    border: 2px solid black;
+  }
+  
+  header nav ul{
+    display: flex;
+    list-style: none;
+  }
 
 
 .container{
   width: 60%;
   max-width: 900px;
   margin: 0 auto;
+
+/* ********** HEADER ********* */
+
+
+
 }
 
 .row{
@@ -43,7 +48,7 @@ header .container{
 }
 
 header .navbar .row{
-  background-color: beige;
+  background-color:orange;
   height: 100%;
   align-items: center;
   justify-content: space-between;
@@ -54,3 +59,50 @@ nav ul li a{
   text-decoration: none;
   padding: 5px 10px;
 }
+
+/* ********** /HEADER ********* */
+
+/* ********** MAIN ************ */
+
+.container-first{
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ;
+
+}
+
+.fucsia{
+  background-color: fuchsia;
+  width: 700px;
+  height: 250px;
+  border: 2px solid black;
+  margin: 30px;
+
+
+}
+
+.container-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 700px;
+}
+.sidebar{
+  width: 900px;
+  min-height: 60%;
+  background-color: cornflowerblue;
+
+}
+
+.pink{
+  background-color: pink;
+  width: 900px;;
+  min-height: 40%;
+}
+
+
+
+/* ********** /MAIN *********** */
