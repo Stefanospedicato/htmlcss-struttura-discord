@@ -10,6 +10,9 @@ body{
 }
   
   header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: aqua;
     height: 60px;
   }
@@ -23,16 +26,20 @@ body{
     list-style: none;
   }
 
+.navbar{
+  min-width: 900px;
+}
 
 .container{
   width: 100%;
   margin: 0 auto;
+}
 
 /* ********** HEADER ********* */
 
 
 
-}
+
 
 .row{
   display: flex;
@@ -49,9 +56,9 @@ header .container{
 
 header .navbar .row{
   background-color:orange;
-  height: 100%;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
 nav ul li a{
